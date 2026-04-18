@@ -1,10 +1,25 @@
-body{
-    background-color: black;
-    margin: auto;
-    padding: auto;
-    color: white;
+/* Custom Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
-a{
-    text-decoration: none;
-    color: white;
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover; /* Keeps image proportions if the photo is different sizes */
 }
