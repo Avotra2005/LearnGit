@@ -1,7 +1,9 @@
 name: My workflows
 
 on:
-  push: main
+  push:
+    branches:
+      - main
 
 jobs:
   Lint:
